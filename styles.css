@@ -1,0 +1,49 @@
+body {
+  background-color: #131313;
+  margin: 0;
+  padding: 0;
+}
+
+body > pre {
+  margin: 0;
+  padding: 10px;
+}
+
+.json-container {
+  color: #abb2bf;
+  font-family: "Consolas", "Monaco", monospace;
+  font-size: 14px;
+  padding: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.key {
+  color: #61afef;
+  font-weight: bold;
+}
+
+.string {
+  color: #98c379;
+}
+
+.number {
+  color: #d19a66;
+}
+
+.boolean.true {
+  color: #56b6c2;
+}
+
+.boolean.false {
+  color: #e06c75;
+}
+
+.null {
+  color: #abb2bf;
+}
+
+.date {
+  color: #c678dd;
+  font-weight: bold;
+}
